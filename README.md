@@ -2,7 +2,7 @@ Teste face digital
 
 Necessita da criação do Banco de dados
 	produtos
-	|Nome 		|Tipo de dados  |Tamanho| Permitir nulo | padrão	   |
+	|Nome 		|Tipo de dados  |Tamanho| Permitir nulo | padrão	   | \n
 	|id     	|int 			| 11	| não			| Auto_increment|
 	|valor  	|varchar		| 50	| não			| 0			   |
 	|img    	|varchar		| 200	| não			| ''		   |
@@ -25,3 +25,11 @@ Necessita da criação do Banco de dados
 	|estado     |int 			| 200	| sim			| null		   |
 	|pais 	 	|varchar		| 200	| sim			| null		   |
 	|status	  	|tinyint		| 1		| não			| 0			   |
+<table>
+	<th>
+		<tr>xD</tr>
+	</th>
+	<tbody>
+		<td>xD</td>
+	</tbody>
+</table>
