@@ -25,3 +25,19 @@ Necessita da criação do Banco de dados<br/>
 	|estado     |int 			| 200	| sim			| null		   |<br/>
 	|pais 	 	|varchar		| 200	| sim			| null		   |<br/>
 	|status	  	|tinyint		| 1		| não			| 0			   |<br/>
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Tipo de dados</th>
+        <th>Tamanho</th>
+        <th>Permitir nulo</th>
+        <th>padrão</th>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>int</td>
+        <td>11</td>
+        <td>não</td>
+        <td>Auto_increment</td>
+    </tr>
+</table>
