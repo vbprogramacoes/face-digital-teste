@@ -39,7 +39,7 @@ Necessita da criação do Banco de dados com as seguinte tabelas<br/>
         <td>''</td>
     </tr>
 </table>
-	--------------------------------------------------------------------<br/>
+	<br/>
 	carrinhos<br/>
 <table>
     <tr>
