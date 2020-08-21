@@ -2,29 +2,6 @@ Teste face digital <br/><br/>
 
 Necessita da criação do Banco de dados<br/>
 	produtos<br/>
-	|Nome 		|Tipo de dados  |Tamanho| Permitir nulo | padrão	   |<br/>
-	|id     	|int 			| 11	| não			| Auto_increment|<br/>
-	|valor  	|varchar		| 50	| não			| 0			   |<br/>
-	|img    	|varchar		| 200	| não			| ''		   |<br/>
-	|descrição 	|Text 			|		| não			| ''		   |<br/>
-	--------------------------------------------------------------------<br/>
-	carrinhos<br/>
-	|NOME 		|TIPO DE DADO   |TAMANHO| PERMITIR NULO | PADRÃO	   |<br/>
-	|id     	|int 			| 11	| não			| Auto_increment|<br/>
-	|id_user  	|varchar		| 200	| não			| Nenhum padrão|<br/>
-	|produtos   |text 			| 200	| sim			| null		   |<br/>
-	|valor	 	|float 			|		| não			| 0			   |<br/>
-	|nome     	|varchar		| 200	| sim			| null		   |<br/>
-	|sobrenome  |varchar		| 200	| sim			| null		   |<br/>
-	|email   	|varchar		| 200	| sim			| null		   |<br/>
-	|cpf	 	|Text 			| 11	| sim			| null		   |<br/>
-	|cep     	|int 			| 8 	| sim			| null		   |<br/>
-	|logradouro |varchar		| 200	| sim			| null		   |<br/>
-	|bairro   	|varchar		| 200	| sim			| null		   |<br/>
-	|cidade	 	|Text 			| 200	| sim			| null		   |<br/>
-	|estado     |int 			| 200	| sim			| null		   |<br/>
-	|pais 	 	|varchar		| 200	| sim			| null		   |<br/>
-	|status	  	|tinyint		| 1		| não			| 0			   |<br/>
 <table>
     <tr>
         <th>Nome</th>
@@ -39,5 +16,142 @@ Necessita da criação do Banco de dados<br/>
         <td>11</td>
         <td>não</td>
         <td>Auto_increment</td>
+    </tr>
+    <tr>
+        <td>valor</td>
+        <td>varchar</td>
+        <td>50</td>
+        <td>não</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>img</td>
+        <td>varchar</td>
+        <td>200</td>
+        <td>não</td>
+        <td>''</td>
+    </tr>
+    <tr>
+        <td>descrição</td>
+        <td>Text</td>
+        <td></td>
+        <td>não</td>
+        <td>''</td>
+    </tr>
+</table>
+	--------------------------------------------------------------------<br/>
+	carrinhos<br/>
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Tipo de dados</th>
+        <th>Tamanho</th>
+        <th>Permitir nulo</th>
+        <th>padrão</th>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>int</td>
+        <td>11</td>
+        <td>não</td>
+        <td>Auto_increment</td>
+    </tr>
+    <tr>
+        <td>id_user</td>
+        <td>varchar</td>
+        <td>200</td>
+        <td>não</td>
+        <td>Nenhum padrão</td>
+    </tr>
+    <tr>
+        <td>produtos</td>
+        <td>text</td>
+        <td>200</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>valor</td>
+        <td>float</td>
+        <td></td>
+        <td>não</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>nome</td>
+        <td>varchar</td>
+        <td>200</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>sobrenome</td>
+        <td>varchar</td>
+        <td>200</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>varchar</td>
+        <td>200</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>cpf</td>
+        <td>Text</td>
+        <td>11</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>cep</td>
+        <td>int</td>
+        <td>8</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>logradouro</td>
+        <td>varchar</td>
+        <td>200</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>bairro</td>
+        <td>varchar</td>
+        <td>200</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>cidade</td>
+        <td>Text</td>
+        <td>200</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>estado</td>
+        <td>int</td>
+        <td>200</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>pais</td>
+        <td>varchar</td>
+        <td>200</td>
+        <td>sim</td>
+        <td>null</td>
+    </tr>
+    <tr>
+        <td>status</td>
+        <td>tinyint</td>
+        <td>1</td>
+        <td>não</td>
+        <td>0</td>
     </tr>
 </table>
