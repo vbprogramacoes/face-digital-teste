@@ -1,0 +1,37 @@
+.container-produto {
+	width: 100%;
+	max-width: 225px !important;
+	height: 315px;
+	background: #ffffff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	background: red;
+}
+.container-produto-image {
+	width: 100%;
+	height: 225px;
+}
+.container-produto-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+}
+.container-produto-container {
+	width: 100%;
+	height: auto;
+	padding: 30px;
+}
+.container-produto-container-valor {
+	width: 100%;
+	height: 55px;
+}
+.container-produto-container-nome {
+	height: 0;
+	width: 100%
+}
+.container-produto:hover {
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+}
+.container-produto:hover .container-produto-container-nome {
+	height: 30px;
+}

@@ -1,0 +1,5 @@
+@media (max-width: 768px){
+	.container-produtos {
+		justify-content: space-between;
+	}
+}
