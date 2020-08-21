@@ -1,6 +1,6 @@
 Teste face digital <br/><br/>
 
-Necessita da criação do Banco de dados<br/>
+Necessita da criação do Banco de dados com as seguinte tabelas<br/>
 	produtos<br/>
 <table>
     <tr>
